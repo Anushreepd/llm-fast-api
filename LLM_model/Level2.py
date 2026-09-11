@@ -1,3 +1,11 @@
+# ----------------------------------------
+# Project: AI Chatbot using OpenAI + Gradio
+# Author: Anushree P D
+# Description:
+# This file creates a ChatGPT-like interface using Gradio
+# with streaming responses from OpenAI API.
+# ----------------------------------------
+
 import os
 
 from fastapi import FastAPI
