@@ -32,7 +32,7 @@ def chartData(prompt: ChatRequest):
     )
     return response.choices[0].message.content
 
-@app.post("chats_gradio")
+@app.post("/chats_gradio")
 def chatGradio(message):
     response = client.chat.completions.create(
         model = "gpt-4o-mini",
